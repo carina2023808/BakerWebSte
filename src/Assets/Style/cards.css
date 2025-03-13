@@ -1,0 +1,55 @@
+
+/* Container for icons */
+.container__icons {
+    display: flex;
+    flex-wrap: wrap;  /* Responsive design */
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 10px;
+
+ 
+}
+
+/* Individual icon box */
+.icon-box {
+    background-color: #fef5ea;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#eba536;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: white;
+}
+}
+
+
+
+/* Icons */
+.icon-box i {
+    font-size: 40px;
+    margin-bottom: 10px;
+   
+}
+
+/* Text */
+.icon-box p {
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Numbers */
+.number {
+    font-weight: 900;
+    font-size: 24px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}

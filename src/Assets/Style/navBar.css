@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+  background: #1e1915;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* z-index: 1000; */
+}
+
+.logo {
+  color: #eba536;
+  font-size: 32px;
+  font-weight: bold;
+}
+/* todos o ul */
+.menulist {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+/* listitem sao os li */
+.menulist .listitem {
+  position: relative;
+}
+/* list-itemlink e o span */
+.menulist .list-itemlink {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
+
+.menulist .list-itemlink:hover {
+  color: #eba536;
+}
+
+/* Dropdown Menu */
+.menulist .listitem ul {
+  display: none;
+  position: absolute;
+  background: #fff;
+  top: 40px;
+  left: 0;
+  list-style: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  min-width: 150px;
+}
+
+.menulist .listitem:hover ul {
+  display: block;
+}
+
+.menulist .listitem ul li {
+  padding: 10px 20px;
+}
+
+.menulist .listitem ul li a {
+  text-decoration: none;
+  color: #1e1915;
+  font-size: 16px;
+  display: block;
+}
+
+.menulist .listitem ul li a:hover {
+  color: #eba536;
+}
+
+/* Contact Section */
+ .contact {
+  /* display: flex;
+  align-items: center; */
+  color: #eba536;
+}
+
+.contact__icon i {
+  color: #eba536;
+  font-size: 24px;
+  display: flex;
+
+} 
+.contact_textIcon{
+  display: flex;
+  justify-content: flex-end;
+  gap:5px;
+}
+
+.contact_textIcon p{
+  display: flex;
+  align-items: center;
+ 
+}
+.n_tel{
+  color: #fff;
+  font-size: 25px;
+}

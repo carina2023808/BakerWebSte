@@ -1,0 +1,59 @@
+/* Header */
+header {
+    background-image: url('/src/Assets/imagens/carousel-2.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start; /* Move o conteúdo para cima */
+    justify-content: flex-start; /* Mantém alinhado à esquerda */
+    padding: 200px 200px; /* Reduz o espaço no topo  margem esquerda */
+}
+
+
+.banner {
+    max-width: 800px;
+   
+}
+
+ /* 1° <h1> */
+.banner__title {
+    color: #eba536;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+ /* 2° <h1> */
+.banner__title2 {
+    color: #fdf5eb;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.banner p {
+    color: #fdf5eb;
+    font-size: 20px;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.banner__button {
+    padding: 15px 30px;
+    background-color: #eba536;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.banner__button:hover {
+    background-color: #d9912a;
+}
